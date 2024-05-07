@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,11 +13,4 @@ code {
 }
 
 
-:root {
-  --primary-color: #e82574;
-  --primary-color-dark: #bc1c5c;
-  --text-dark: #0c0a09;
-  --text-light: #78716c;
-  --white: #ffffff;
-  --max-width: 1200px;
-}
+

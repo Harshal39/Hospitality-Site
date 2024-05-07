@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import "./styles.css";
 import { motion } from "framer-motion";
-import { fadeIn } from "../../variants";
-import Button from '../Button';
+import { fadeIn } from "../variants";
+import Button from './Button';
+import "./Stylesheet/styles.css";
+
 
 const HeaderLogo = () => (
   <div className="logo">
@@ -30,13 +31,13 @@ const Navigation = ({ isMenuOpen, toggleMenu }) => (
                             <a href="#about">About</a>
                         </li>
                         <li>
-                            <a href="#service">Services</a>
+                            <a href="#rooms">Room</a>
                         </li>
                         <li>
-                            <a href="#rooms">Rooms</a>
+                            <a href="#services">Services</a>
                         </li>
                         <li>
-                            <a href="#gallary">Gallary</a>
+                            <a href="#gallery">Gallery</a>
                         </li>
                         <li>
                             <a href="#contact">Contact</a>
