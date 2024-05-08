@@ -4,6 +4,7 @@ import Small from "../Components/Images/small.jpg";
 import { motion } from "framer-motion";
 import { fadeIn} from "../variants"
 import Button from './Button';
+import 'remixicon/fonts/remixicon.css';
 
 const Room = () => {
   return (

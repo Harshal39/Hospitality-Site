@@ -19,5 +19,17 @@ Separate Images folder was made in src-->components-->images were images require
 3. An external __variant.js__ file is made which contains a reusable function called fade-in animation with a given direction and delay. The animation is defined using keyframes and a transition, with the transition's duration, delay, and easing function all customizable.This function was made for animation.
 
 
+## About Page and RoomPage
 ### Note:- While making About Page I have noticed that I have to give same media queries for responsiveness in different components thus increasing time and causing repeatation thus I have made a separate Stylesheet folder which contain styles.css folder which will further contain styling for all the components in single file.
-Here I have removed the button component as Common Stylesheet Folder will take care of styling.
+Here I have removed the button component as Common Stylesheet Folder will take care of styling.\
+
+Use of nth child concept:-\
+:nth-child() selector selects child elements according to their position among all the sibling elements within a parent element.
+
+## Services, Banner, Gallery and Contact Page
+Remix icons were used in services page.\
+Command - ```npm install -remixicons --save```\
+Further to import:- ```import 'remixicon/fonts/remixicon.css'```
+
+
+
