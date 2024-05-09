@@ -6,6 +6,9 @@ import Service from './Components/Service'
 import Banner from './Components/Banner'
 import Gallery from './Components/Gallery'
 import Contact from './Components/Contact'
+import Map from './Components/Map'
+import Footer from './Components/Footer'
+import BackToTopButton from './Components/BackToTop'
 
 
 const App = () => {
@@ -18,6 +21,9 @@ const App = () => {
       <Banner />
       <Gallery />
       <Contact />
+      <Map />
+      <Footer />
+      <BackToTopButton />
     </div>
   )
 }

@@ -31,5 +31,9 @@ Remix icons were used in services page.\
 Command - ```npm install -remixicons --save```\
 Further to import:- ```import 'remixicon/fonts/remixicon.css'```
 
-
+## Map and Footer Page
+Map Page is made and its purpose is to render an embedded Google Map within a web page.\
+Further Footer Page was made and styling was done.\
+Additionally a __BackToTop button__ is made which has highest Z-index so button will display above all pages and position is fixed so that button will be visible throughout the site from second page onwards.\
+Function of the button is to bring user to first page that is home page from any page on the website.
 
